@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>coxmediagroup-uidevtest-c936503</title>
+		
+		<!-- 
+		#################
+		
+		orange: #CC6600
+		black:#202020
+		grey: #666666
+		fonts: Georgia,"Times New Roman",Times,serif and Arial,"MS Trebuchet",sans-serif 
+		headline font size: 18px
+		article text size: 14px
+		photo cutline size: 12px
+		page gradient: vertical from #CCCCCC at the top to #FFFFFF at the bottom
+
+		################# 
+		-->
+		
+		<style type="text/css">
+		
+			
+			body, html {margin: 0px;padding:0px;height: 100%;}
+			
+			body {font-family:Arial,"MS Trebuchet",sans-serif;padding-left:30px;font-size:14px;color:#202020;}
+			
+			/* LAYOUT */
+			/* ############################ */
+						
+			#header {float:left;clear:both;width:100%;display: table-row;padding-top:16px;}
+			
+			#wrap {float: left;width:100%;display: table-row;}
+			
+			#left {float:left;width:170px;padding-right: 20px;display: table-cell;}
+			
+			#left img {max-width: 170px;}
+			
+			#right {float:r;display: table-cell;}
+			
+			/* GENERAL STYLE */
+			/* ############################ */
+						
+			h1 {font-family: Georgia, "Times New Roman", Times, serif;margin-top: 14px;margin-bottom: 20px;}
+			
+			h1 {font-size: 18px;}
+			
+			h2 {margin:0px;font-size:1em;font-weight: normal;}
+			
+			h3 {margin:0px;font-size:.9em;font-weight: normal;}
+			
+			a { color:#CC6600;text-decoration: none;}
+			
+			a:hover {color: #666;}
+			
+			p {}
+
+			/* HEADER */
+			/* ############################ */
+			
+						
+			/* LEFT COLUMN */
+			/* ############################ */
+			
+			.img-foot {text-align:right;width: 170px;color:#888888;font-size: 0.7em;line-height:130%;display: block;margin-bottom: 15px;}
+			
+			#left .info {font-size: 12px;margin-top: 5px;}
+			
+			#left a {font-size:10px;text-transform: uppercase;padding-left: 20px;background: url(../images/sprites.gif) 0px -391px no-repeat;display: block;}
+			
+			#left a:hover {background-position-y: -436px;}
+			
+			
+			/* RIGHT COLUMN */			
+			/* ############################ */
+			
+			.hd h2 a {font-weight: bold;}
+			
+			.hd h3 {padding-bottom: 10px;}
+			
+			.hd .info {display: block;font-size: 0.9em;color: #444;}
+			
+			.hd .controls {border-top:1px dotted #666;margin-top: 10px;padding-top: 5px;}
+			
+			.hd .controls a {color:#202020;padding-left: 20px;font-size: 0.8em;border-right: 1px solid #444;padding-right: 10px;}
+			
+			.hd .controls a:hover {color:#666;}
+			
+			.comn {background: url(../images/sprites.gif) 0px -480px no-repeat;}
+			.mail {background: url(../images/sprites.gif) 0px -255px no-repeat;}
+			.prin {background: url(../images/sprites.gif) 0px -301px no-repeat;}
+			.shar {background: url(../images/sprites.gif) 0px -346px no-repeat;}
+			.type {background: url(../images/sprites.gif) 0px -391px no-repeat;}
+			.type.mm {background: url(../images/sprites.gif) 0px -436px no-repeat;}
+			
+			#right .content p {max-width:600px;}
+			
+			.content p {font-size: 14px;}
+			.content.mm p {font-size: 16px;}
+			
+			
+			
+			/* GRADIENT */			
+			/* ############################ */
+			body {
+				background: #CCCCCC; /* Old browsers */
+				/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+				background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NjY2NjYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+				background: -moz-linear-gradient(top,  #cccccc 0%, #ffffff 50%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cccccc), color-stop(50%,#ffffff)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #cccccc 0%,#ffffff 50%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #cccccc 0%,#ffffff 50%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #cccccc 0%,#ffffff 50%); /* IE10+ */
+				background: linear-gradient(to bottom,  #cccccc 0%,#ffffff 50%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
+				}
+			
+		</style>
+		
+		<!--[if gte IE 9]>
+		<style type="text/css">
+		.gradient {
+			filter: none;
+			}
+		</style>
+		<![endif]-->
+		
+		<script type="text/javascript" language="javascript" src="../js/jquery-1.4.min.js"></script>
+		
+		<script type="text/javascript">
+		
+		$(document).ready(function() {
+			
+			$('.type').click(function(){
+				$(this).toggleClass('mm');$('.content').toggleClass('mm');
+				});
+			
+			});
+		
+		</script>
+		
+	</head>
+	
+	<body class="gradient">
+	
+		<div id="header">
+			<a href="#">Home</a> > <a href="#">Sports</a> > <a href="#">Longhorns</a>
+			<h1>Texas puts perfect mark on line at Kansas State</h1>
+			
+		</div>
+		
+		<div id="left">
+			
+			<img src="../images/basketball.jpg" alt="basketball" />
+			<label class="img-foot">
+				Laura Skelding/AMERICAN-STATESMAN
+			</label>
+			
+			<a href="#">Enlarge photo</a>
+			<p class="info">
+				Texas senior forward Damion James and freshman guard Avery Bradley will be on alert against Kansas State just as they were against Texas A&M's David Loubeau, center, on Saturday.
+			</p>
+			
+		</div>
+
+		<div id="right">
+			
+			<div class="hd">
+				<h2>By <a href="#">Mark Rosner</a></h2>
+				
+				<h3>AMERICAN-STATESMAN STAFF</h3>
+				
+				<label class="info">Updated: 11:17 p.m. Sunday, Jan. 17, 2010</label>
+				
+				<label class="info">Published: 6:57 p.m. Sunday, Jan. 17, 2010</label>
+				
+				<div class="controls">
+					<a class="comn" href="#">Post a Comment</a>
+					<a class="mail" href="#">E-mail</a>
+					<a class="prin" href="#">Print</a>
+					<a class="shar" href="#">Share</a>
+					<a class="type mn" href="#">Large Type</a>					
+				</div>
+				
+			</div>
+			
+			<div class="content mn">
+				<p>
+					<label>MANHATTAN, Kan.</label> - The Longhorns, three games into their defense of the No. 1 ranking, 
+					come to a place where the opponent is formidable, the crowd is raucous, and the referees might just wear out their whistles.
+				</p>
+				
+				<p>
+					They come to face No. 13 Kansas State, an in-your-face team that reflects the personality of its coach, Frank Martin. 
+					The Wildcats spend much of their games fouling and shooting free throws.
+				</p>
+				
+				<p>
+					All 12,528 tickets have been sold, and coach Rick Barnes hopes the Longhorns can summon the fortitude Texas A&M showed 
+					in the packed Erwin Center on Saturday during a 72-67 loss to the Longhorns in overtime.
+				</p>
+				
+				<p>
+					"It's gonna be flipped Monday," Barnes said. "We're not gonna have the house. 
+					I hope we go in with the same intensity A&M brought."
+				</p>
+				
+				<p>
+					Kansas State has 13 consecutive victories at home, its longest streak 
+					in Manhattan since winning 20 straight in 1981-82.
+				</p>
+				
+				<p>
+					The Longhorns and Wildcats would not be called rivals, 
+					but you couldn't tell by their games in recent seasons.
+				</p>
+				
+				<p>
+					Barnes is 8-4 against Kansas State. The Longhorns have won four of the last six, but five of those games were 
+					decided by four points or fewer. Texas has won the last two in Manhattan. K-State has a two-game winning steak in Austin.
+				</p>
+			</div>
+			
+		</div>
+				
+	</body>
+
+</html>
